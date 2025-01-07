@@ -1,0 +1,8 @@
+executor: KubernetesExecutor
+logs:
+  persistence:
+    enabled: true
+webserver:
+  defaultUser:
+    username: admin
+    password: admin
