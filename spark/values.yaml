@@ -1,0 +1,11 @@
+image:
+  tag: "3.2.1"
+
+spark:
+  master:
+    replicas: 1
+  worker:
+    replicas: 2
+
+service:
+  type: ClusterIP
